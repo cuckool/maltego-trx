@@ -76,4 +76,4 @@ app.route(URL_TEMPLATE, methods=['GET', 'POST'])(transform_runner)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "You have reached a Maltego Transform Server.", 200
+    return "You have reached a Maltego Transform Server. Modified.", 200
